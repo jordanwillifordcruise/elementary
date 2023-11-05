@@ -1,10 +1,6 @@
 ---
-title: "Add exposure validation tests"
+title: "Exposure validation tests"
 ---
-
-After you [install the dbt package](/quickstart#install-the-dbt-package), you can add Elementary exposure validation tests.
-
-## Exposure validation dbt tests
 
 Elementary dbt package includes **exposure validation tests, implemented as [dbt tests](https://docs.getdbt.com/docs/building-a-dbt-project/tests)**.
 These tests can detect changes in your models' columns that break downstream exposures, such as BI dashboards.
@@ -33,7 +29,8 @@ exposures:
 ```
 
 <Tip>
-  You can read up about exposures and how to add them at [dbt documentation](https://docs.getdbt.com/docs/build/exposures)
+  You can read up about exposures and how to add them at [dbt
+  documentation](https://docs.getdbt.com/docs/build/exposures)
 </Tip>
 
 ### Adding the Elementary exposure information
@@ -64,7 +61,8 @@ exposures:
 ```
 
 <Tip>
-  In Elementary Cloud, the exposures and exposure validation tests are added automatically, leveraging an integration with your BI tool.
+  In Elementary Cloud, the exposures and exposure validation tests are added
+  automatically, leveraging an integration with your BI tool.
 </Tip>
 
 You can optionally also specify the column data type (`data_type`)
